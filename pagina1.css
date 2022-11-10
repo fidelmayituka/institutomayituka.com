@@ -1,0 +1,393 @@
+
+*{
+margin: 0;
+padding: 0;
+ 
+}
+@font-face{
+    font-family:'anadafont';
+    src: url(Ananda\ Black\ Personal\ Use.ttf) format('truetype');
+   
+}
+@font-face{
+    font-family: 'homenad';
+    src: url(Homemade\ Sausage.ttf) format('truetype');
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 90px; 
+}
+body{
+  background-color: rgb(153, 111, 111);
+ 
+ 
+}
+header{
+    background-color: orange;
+
+  
+}
+nav{
+    background-color: rgb(31, 31, 73);
+   justify-content:  space-evenly;
+   align-items: center;
+   display: flex;
+   padding: 10px;
+   position: fixed;
+   width: 100%;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.439);
+}
+nav #ul1 li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+   
+}
+#ul1{
+    overflow: hidden;
+    transition: .9s;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 2px;
+    outline: none;
+    position: absolute;
+    display: none;
+    right: 20px;
+    top: 2px;
+ 
+}
+nav > h1{
+  color: rgb(255, 255, 255);
+  margin: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.1em;
+  font-weight: normal;
+}
+ #ul1 li a{
+     color: rgb(255, 255, 255);
+     font-size: 1.2em;
+     text-decoration: none;
+     padding: 10px;
+     border-radius: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+ #ul1 li a:hover{
+    
+background-color: rgb(74, 112, 162);
+transition-duration: .6s;
+text-decoration: underline;
+
+ }
+ button:hover{
+    background-color: rgb(74, 112, 162);
+    transition-duration: .6s;
+    
+ }
+ .central{
+  
+    background-color:rgb(241, 241, 241) ;
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 300px;
+   margin: auto;
+ }
+
+ #centro{
+     background-image: linear-gradient(to top right, rgba(22, 25, 82, 0.727),rgba(49, 58, 38, 0.898)), url(informatica1.jpg);
+     width: 100%;
+    background-position: center;
+     padding: 10px;
+     height: 450px;
+     margin: -10px -30px 30px -10px ;
+     background-attachment: fixed;
+  
+    
+     
+ }
+ picture > img{
+     width: 90%;
+     display: block;
+     height: 350px;
+     margin: auto;
+     padding: 20px;
+    
+ }
+ q{
+    color: orange;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    display: none;
+}
+ article{
+     font-family: Arial, Helvetica, sans-serif;
+     width: 100%;
+     text-align: center;
+    margin: 13% auto auto auto;  
+ 
+
+ }
+ article > h1{
+     color: rgb(213, 188, 47);
+    font-size: 2.2em;
+    line-height: 2;
+    
+  
+ }
+ article > #h2peq{
+     display: none;
+ }
+ article > p{
+     font-family: Arial, Helvetica, sans-serif;
+    
+     line-height: 1.8;
+   font-size: 1.2em;
+ color: rgb(255, 255, 255);
+
+ }
+ article > h2{
+     color: rgb(191, 198, 209);
+
+    font-size: 2.2em;
+
+    font-family: 'anadafont';
+
+  
+ }
+
+ div > h1{
+  background-image: linear-gradient(to right, rgb(57, 57, 119),rgb(69, 69, 128),transparent) ;
+  text-indent: 20px;
+  color: white;
+  margin: 10px;
+  
+ }
+ div > p{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 2;
+     text-align: justify;
+     text-indent: 20px;
+     margin: 10px;
+ }
+ div > p > span{
+    color: rgb(59, 59, 181);
+   font-style: italic;
+   font-weight:bolder;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.1em;
+ }
+ .cursos{
+     background-color: rgb(18, 28, 48);
+     padding: 15px;
+     text-align: center;
+     line-height: 2;
+   width: 90%;
+ margin: auto auto 20px auto;
+ border-radius: 0 0 20px 20px;
+ min-height: 50vh;
+ 
+  
+ }
+ .cursos > #ulsaude,#ulpoli{
+     list-style: none;
+   margin: 0 30px 20px ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 1.2em;
+   color: white;
+   columns: 2;
+ }
+ #cursoh1{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(37, 37, 70);
+    color: white;
+margin: 10px -10px 10px -10px;
+    text-align: center;
+    padding: 10px;
+ 
+ }
+ .cursos > h2{
+     color:rgb(253, 253, 253);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-image: linear-gradient( to right ,transparent, rgb(75, 63, 63), transparent);
+     padding: 10px;
+   
+ }
+ #servicosh1{
+     background-color: rgb(37, 37, 70);
+     color: white;
+     text-align: center;
+     margin: 10px -10px 0 -10px;
+     padding: 10px;
+ }
+ .servicos {
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     line-height: 2;
+     font-family: Arial, Helvetica, sans-serif;
+
+     text-align: justify;
+     text-indent: 20px;
+     margin: 10px;
+ }
+     
+ 
+ #sobh1{
+    background-color: rgb(37, 37, 70);
+     color: white;
+     margin: 10px -10px 0 -10px;
+     text-align: center;
+     padding: 10px;
+ }
+ .Sobre{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+}
+    
+ 
+ #footerpai{
+     background-color: rgb(20, 20, 48);
+     margin: 0 -10px -10px -10px;
+     padding-top: 4px;
+     text-align: center;
+   
+ }
+ #footermae{
+     background-color: transparent;
+     padding: 10px;
+  text-align: center;
+  columns: 2;
+ }
+h3{
+   color: white;
+}
+#footermae > p{
+    margin: 10px;
+    
+}
+#footerpai > p{
+    margin-bottom: -10px;
+    line-height: 2;
+    
+}
+#footerpai,#footermae{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+hr{
+    margin: 5px;
+}
+  button:focus ~ #ul1 {
+      height: 200px;
+     
+     
+  }
+
+ @media (max-width : 730px){
+     nav, #ul1{
+    
+       
+     flex-direction: column;
+       
+     }
+     #ul1{
+         text-align: center;
+         margin: 0;
+         height: 0;
+         margin-top: -10px;
+     
+        
+     }
+     nav{
+         padding-top: 10px ;
+        
+     }
+     button{
+        display: flex;
+     }
+#ul1> li > a{
+    color: rgb(252, 252, 252);
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  text-align: center;
+    margin-left: -19px;
+}
+     li,#ul1{
+    margin-bottom: 9px;
+    width: 100px;
+     }
+     html{
+         scroll-padding: 110px;
+     }
+     article> #pid1,#pid2,#h2id,#h1id {
+         display: none;
+     }
+
+article > #h2peq {
+   display: block;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.1em;
+  color: rgb(250, 250, 250);
+  margin: 35% 20px 10px 20px; 
+
+}
+#centro{
+    width: 100%;
+    background-image: linear-gradient(to top right, rgba(27, 39, 97, 0.727),rgba(39, 33, 18, 0.898)), url(informatica1.jpg);
+
+}
+#ul1 li a:hover{
+    
+    color: rgb(197, 194, 97);
+    background-color: transparent;
+    transition-duration: .6s;
+    text-decoration: underline;
+    
+
+ }
+ q{
+     color: rgb(197, 197, 101);
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 1.3em;
+     display: block;
+ }
+ nav > h1{
+     color: rgb(255, 255, 255);
+     animation-name: anime;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     position: relative;
+
+ }
+@keyframes anime{
+     from {
+         left: -60px;
+     }
+     to {
+         left: 20px;
+         color: rgb(206, 192, 114);
+     }
+ }
+ 
+     }
+    
+
+
+            
